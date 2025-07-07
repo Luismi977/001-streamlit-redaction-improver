@@ -56,13 +56,16 @@ st.header("Re-escribe tu texto")
 
 
 #Intro: instructions
-col1, col2 = st.columns(2)
+col1, col2, col3 = st.columns(2)
 
 with col1:
     st.markdown("Re-escribe tu texto en diferentes estilos.")
 
 with col2:
     st.write("Contacta con [AI Luis Margolles](https://onfy.io) para construir tus AI Projects")
+
+with col3:
+    st.write("Vamos a probar una nueva columna")
 
 
 #Input OpenAI API Key
