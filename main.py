@@ -77,8 +77,8 @@ def get_openai_api_key():
 
 openai_api_key = get_openai_api_key()
 
-st.markdown("## segundo recuadro de pruebas")
-
+st.markdown("## Segundo recuadro de pruebas")
+st.selectbox("Recuadro de prueba")
 
 # Input
 st.markdown("## Enter the text you want to re-write")
