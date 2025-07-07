@@ -51,8 +51,8 @@ def load_LLM(openai_api_key):
 
 
 #Page title and header
-st.set_page_config(page_title="Re-write your text")
-st.header("Re-write your text")
+st.set_page_config(page_title="Re-escribe tu texto")
+st.header("Re-escribe tu texto")
 
 
 #Intro: instructions
