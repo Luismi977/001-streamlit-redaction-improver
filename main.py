@@ -79,7 +79,7 @@ openai_api_key = get_openai_api_key()
 
 st.markdown("## Segundo recuadro de pruebas")
 opciones = ["Opcion 1", "Opción 2", "Opción 3"]
-st.selectbox("Recuadro de prueba")
+st.selectbox("Recuadro de prueba", opciones)
 
 # Input
 st.markdown("## Enter the text you want to re-write")
