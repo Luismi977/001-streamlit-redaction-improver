@@ -56,7 +56,7 @@ st.header("Re-escribe tu texto")
 
 
 #Intro: instructions
-col1, col2, col3 = st.columns(2)
+col1, col2, col3 = st.columns(3)
 
 with col1:
     st.markdown("Re-escribe tu texto en diferentes estilos.")
