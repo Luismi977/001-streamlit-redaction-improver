@@ -77,7 +77,7 @@ def get_openai_api_key():
 
 openai_api_key = get_openai_api_key()
 
-st.markdown
+st.markdown("## segundo recuadro de pruebas")
 
 
 # Input
