@@ -77,6 +77,8 @@ def get_openai_api_key():
 
 openai_api_key = get_openai_api_key()
 
+st.markdown
+
 
 # Input
 st.markdown("## Enter the text you want to re-write")
